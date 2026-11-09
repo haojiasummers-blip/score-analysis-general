@@ -1,0 +1,35 @@
+# 归档与打包产物
+*.zip
+*.7z
+*.rar
+
+# 数据与产物：一律不进仓库
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.pdf
+*.png
+*.jpg
+*.log
+
+# 常见数据目录
+data/
+数据/
+outputs/
+输出/
+图/
+学员分析/
+
+# 示例脚本生成的文件（可随时重新生成，不必入库）
+examples/样例_*.xlsx
+examples/_输出_*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 系统
+.DS_Store
+Thumbs.db
